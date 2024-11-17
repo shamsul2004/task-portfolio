@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" class="checkbox" id="check">
+        <h1 class="nav_head">Shamsul.</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <a href="#contact"><button class="contact_btn">Contact Me</button></a>
+        </ul>
+        <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+        </label>
+    </nav>
+
+    <!-- home section -->
+    <section id="home" class="home">
+        <img src="./img1.jpg" alt="" width="450px" height="400px">
+        <div class="description">
+            <h1> Hello I'm <br><span>Shamsul ansari</span></h1>
+            <h2>I'm a <span>Web Developer..</span></h2>
+            <p>Hello, I am Shamsul Ansari, a passionate and dedicated B.Tech Computer Science Engineering student
+                in my 3rd year at Ambalika Institute of Management and Technology.
+                I have a keen interest in  <span>  Web development  </span></p>
+            <div class="font">
+            <i class="fa-brands fa-instagram"></i></a>
+                <i class="fa-brands fa-facebook-f"></i>
+               <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fas fa-phone"></i>
+                </div>
+            <button>Download cv</button>
+            </div>
+      </section>
+      <!-- about section -->
+
+      <section id="about" class="about">
+        <div class="about_section">
+            <h1>About <span>Me</span></h1>
+            <h2>Web <span>Developer!</span></h2>
+            <p>Hello, I am Shamsul Ansari, a passionate and dedicated B.Tech Computer Science Engineering student
+                in my 3rd year at Ambalika Institute of Management and Technology.
+                I have a keen interest in  <span>  Web development  </span>, web design, and project management.
+                With a strong foundation in programming and a drive for continuous learning,
+                I have worked on various projects, including hotel management systems,
+                software change request systems, and portfolio websites, leveraging technologies like HTML, CSS, JavaScript, and React.</p>
+            <button class="about_btn">Read More..</button>
+        </div>
+        <div class="about_photo"><img src="./img1.jpg" alt="" width="420px" height="360px">
+        </div>
+</section>
+
+<!-- service section -->
+<section  id="service" class="service">
+    <h1 class="service_section">My <span> Services</span></h1>
+    <div class="card">
+        <div class="service_card">
+            <i class="fas fa-computer"></i>
+            <h2>blockchain Developer</h2>
+            <p>Designs decentralized systems, smart contracts, and secure applications, ensuring transparency, scalability, and innovation.!</p>
+            <a href="#">Read More..</a>
+        </div>
+        <div class="service_card">
+            <i class="fas fa-computer"></i>
+            <h2>UI/UX Design</h2>
+            <p>Creates responsive websites, integrates technologies, and enhances user experiences through interactive and functional designs.</p>
+            <a href="#">Read More..</a>
+        </div>
+        <div class="service_card">
+            <i class="fas fa-computer"></i>
+            <h2>Frontend Developer</h2>
+            <p>Crafts captivating visuals, designs brand elements, and communicates ideas through creative and impactful graphic solutions!</p>
+            <a href="#">Read More..</a>
+        </div>
+    </div>
+</section>
+
+
+
+<!--  portfolio section-->
+<section id="portfolio">
+    <h1 class ="port_section">My<span>Work</span></h1>
+    <div class="project">
+        <div class="port_card">
+    <img src="./web.png" alt="" widtgh="350px"  height="350px">
+    <div class="content">
+        <h1>Web Development</h1>
+      <p>We Create all types of best and responsive Websites.</p>
+    </div>
+        </div>
+        <div class="port_card">
+            <img src="./Phone.png" alt="" widtgh="350px"  height="350px">
+            <div class="content">
+                <h1>Android Development</h1>
+              <p>We Achieved 5 star in Android app development.</p>
+            </div>
+                </div>
+                <div class="port_card">
+                    <img src="./Graphic.png" alt="" widtgh="350px"  height="350px">
+                    <div class="content">
+                        <h1>Graphic Design</h1>
+                      <p>I create the Best Designs.</p>
+                    </div>
+                        </div>
+    </div>
+   </section>
+<!-- contact section -->
+<section id="contact">
+    <div class="form">
+        <h1>Contact <span> Me </span></h1>
+        <form action="#home">
+            <input type="text" name="name"placeholder="Enter your name" required=""><br>
+            <input type="emsil"name="email"placeholder="Enter your Email" required=""><br>
+            <input type="number" name="mno" placeholder="Enter your mobile no" required=""><br>
+            <textarea name="msg" id="msg"rows="6"cols="20" placeholder="Enter your Message"></textarea><br>
+            <button class="form_btn">Submit</button>
+        </form>
+    </div>
+</section>
+<div class="footer">
+    &#169; all rights reserved by shamsul ansari.
+</div>
+
+</body>
+</html>
